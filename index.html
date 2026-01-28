@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Playlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎵 My Music Playlist</h1>
+
+<div id="folders"></div>
+
+<div class="controls">
+  <label>
+    <input type="radio" name="mode" value="order" checked>
+    Sequential
+  </label>
+  <label>
+    <input type="radio" name="mode" value="shuffle">
+    Shuffle
+  </label>
+</div>
+
+<button id="playBtn">▶ Play</button>
+
+<p id="nowPlaying"></p>
+
+<audio id="audio" controls></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
