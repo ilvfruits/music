@@ -1,7 +1,7 @@
 body {
   font-family: system-ui, sans-serif;
   padding: 20px;
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
 }
 
@@ -9,17 +9,44 @@ h1 {
   text-align: center;
 }
 
-#folders label {
+.folder {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.folder-header {
+  background: #f5f5f5;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.folder-songs {
+  padding: 8px 16px;
+  display: none;
+}
+
+.folder-songs label {
   display: block;
-  margin: 8px 0;
+  margin: 5px 0;
 }
 
 .controls {
   margin: 15px 0;
 }
 
+.player-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
 button {
-  padding: 10px 18px;
+  padding: 10px 16px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -27,4 +54,5 @@ button {
 #nowPlaying {
   margin-top: 10px;
   font-weight: bold;
+  text-align: center;
 }
