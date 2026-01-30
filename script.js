@@ -48,12 +48,12 @@ function renderFolders() {
       songsDiv.appendChild(label);
     });
 
-    header.onclick = (e) => {
-      if (e.target.tagName !== "INPUT") {
+    header.addEventListener("click", (e) => {
+      if (e.target.type !== "checkbox") {
         songsDiv.style.display =
           songsDiv.style.display === "none" ? "block" : "none";
       }
-    };
+    });
 
     folderCheckbox.onchange = () => {
       songsDiv.querySelectorAll("input").forEach(cb => {
