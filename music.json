@@ -1,13 +1,7 @@
 {
-  "piano": [
-    "song1.mp3",
-    "song2.mp3"
-  ],
-  "jazz": [
-    "jazz1.mp3",
-    "jazz2.mp3"
-  ],
-  "lofi": [
-    "lofi1.mp3"
+  "pop2": [
+    "Apologize.mp3",
+    "Photograph.mp3",
+    "Pretty Boy.mp3"
   ]
 }
