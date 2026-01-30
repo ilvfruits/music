@@ -70,6 +70,15 @@ button {
     font-size: 1.4rem;
   }
 
+  .player-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    border-radius: 16px 16px 0 0;
+  }
+
   .folder-header {
     font-size: 1rem;
     padding: 12px;
