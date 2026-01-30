@@ -1,7 +1,16 @@
 {
+  "Pop1": [
+    "Poker Face.mp3",
+    "Shape of You.mp3"
+  ],
   "Pop2": [
     "Apologize.mp3",
     "Photograph.mp3",
     "Pretty Boy.mp3"
+  ],
+  "TaylorSwift": [
+    "Begin Again.mp3",
+    "Love Story.mp3",
+    "Red.mp3"
   ]
 }
